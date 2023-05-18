@@ -1,2 +1,9 @@
-# uvv_bd1_si1n
- PSET BD1, UVV 2023/1
+## PSET 1
+
+**Nome:** Vitor Fracalossi do Nascimento Lozorio
+
+**Turma:** SI1N
+
+**Professor:** Abrantes Araujo Silva Filho
+
+
