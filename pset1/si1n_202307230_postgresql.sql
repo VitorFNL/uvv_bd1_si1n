@@ -31,7 +31,7 @@ CREATE DATABASE uvv WITH
 
 -- Comentando o banco de dados uvv
 
-COMMENT ON DATABASE uvv IS 'Esse banco de dados conterá os dados referentes à franquia hipotética lojas uvv';
+COMMENT ON DATABASE uvv IS 'Esse banco de dados conterá os dados referentes às lojas da uvv';
 
 
 
