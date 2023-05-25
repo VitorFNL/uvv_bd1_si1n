@@ -37,7 +37,9 @@ COMMENT ON DATABASE uvv IS 'Esse banco de dados conterá os dados referentes às
 
 -- Trocando para o banco de dados uvv com o usuário vitor
 
-\c uvv vitor
+\c uvv;
+
+SET ROLE vitor;
 
 
 
@@ -433,7 +435,7 @@ CREATE TABLE lojas.Pedidos_itens (
                 numero_da_linha NUMERIC(38)   NOT NULL,
                 preco_unitario  NUMERIC(10,2) NOT NULL,
                 quantidade      NUMERIC(38)   NOT NULL,
-                envio_id        NUMERIC(38)   NOT NULL
+                envio_id        NUMERIC(38)
 );
 
 -- Comentando a tabela pedidos_itens

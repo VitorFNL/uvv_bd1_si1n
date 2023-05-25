@@ -145,7 +145,7 @@
     <column id="COL37" populated="true" UUID="b82ef764-265d-4c12-87e1-bd603e36cf6f" autoIncrement="false" autoIncrementSequenceName="Pedidos_itens_quantidade_seq" defaultValue="" name="quantidade" nullable="0" physicalName="quantidade" precision="38" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
      <remarks>Receberá a quantidade de produtos solicitados no pedido.</remarks>
     </column>
-    <column id="COL38" populated="true" UUID="a6092057-e974-47ee-833f-bb5494ee98e8" autoIncrement="false" autoIncrementSequenceName="Envios__envio_id__seq" defaultValue="" name="envio_id" nullable="0" physicalName="envio_id" precision="38" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+    <column id="COL38" populated="true" UUID="a6092057-e974-47ee-833f-bb5494ee98e8" autoIncrement="false" autoIncrementSequenceName="Envios__envio_id__seq" defaultValue="" name="envio_id" nullable="1" physicalName="envio_id" precision="38" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
      <remarks>Identificador único das entregas (FK dessa tabela).</remarks>
     </column>
     </folder>
